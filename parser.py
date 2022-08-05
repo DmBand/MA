@@ -6,7 +6,7 @@ SAINT_PETERSBURG = 'RU-SPE'
 def parser(data: dict) -> dict | None:
     """
     Парсинг одного продукта.
-    :param data: Словарь со всеми данными по одному изделию
+    :param data: Словарь со всеми данными по одному товару
     """
     regions = (data.get('available')
                .get('offline')
